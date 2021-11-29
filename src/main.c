@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define    ONE       1
-#define  TWO     2
+#define ONE 1
+#define TWO 2
 
 void foo(int* x, int* y) {
     printf("x = %d\n", *x);
@@ -12,13 +12,10 @@ void foo(int* x, int* y) {
 
 void bar(int* x, int* y) { printf("Bar"); }
 
-void baz(int* x, int* y) {
-    printf("Baz");
-}
+void baz(int* x, int* y) { printf("Baz"); }
 
-void hren(int* x, int* y)
-{
-    int    x     =    10;
+void hren(int* x, int* y) {
+    int x = 10;
     printf("Hren");
 }
 
